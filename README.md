@@ -22,9 +22,9 @@ This dataset comes from a collection of UK Used Car listing that were scraped an
 * Built With, Contributors, Authors, Acknowledgments
 
 
-![picture2]()
+![picture2](https://raw.githubusercontent.com/twhipple/Used_Car_Price_Regression_Model/main/Images/Screen%20Shot%202020-10-13%20at%208.59.55%20AM.png)
 
-*Not sure yet*
+*Boxplot of Price and Model Types*
 
 
 ## Repo Contents
@@ -35,6 +35,7 @@ This repo contains the following:
 * toyota.csv - the file containing the dataset in csv.
 * CONTRIBUTING.md 
 * Images
+
 
 
 ## Libraries & Prerequisites
@@ -53,6 +54,9 @@ These are the libraries that I used in this project.
 * from sklearn.metrics import mean_squared_error
 * from sklearn.model_selection import cross_val_score
 
+![](https://raw.githubusercontent.com/twhipple/Used_Car_Price_Regression_Model/main/Images/Screen%20Shot%202020-10-13%20at%209.00.24%20AM.png)
+
+*Different Transmission Types in the dataset*
 
 
 ## Features
@@ -64,20 +68,26 @@ These are the features of this dataset.
 
 
 ## Models
-I will use a Linear Regression Model
+I will use a Linear Regression Model after converting the categrical features and scaling the numerical features.
 
 
 ## Conclusions
-Not there yet.
+From my EDA, I can conclude that a car's price is indirectly related to it's mileage. And the size of the engine is a good predictor of price since there is a direct relationship.
+
+
+![](https://raw.githubusercontent.com/twhipple/Used_Car_Price_Regression_Model/main/Images/Screen%20Shot%202020-10-13%20at%209.16.16%20AM.png)
+
+*Mileage vs Price Reg Plot*
 
 
 ## Future Work
-Still working on it.
+My basic model seemed to have some difficulties because of the number of columns - mostly due to all the different models involved.
 
 
 ![Picture3](https://raw.githubusercontent.com/twhipple/Used_Car_Price_Regression_Model/main/Images/roadside-assistance-required-jamie%20brelsford.jpg)
 
 *Roadside assistance required! Source: Jamie Brelsford, freeimages.com*
+
 
 ## Built With:
 Jupyter Notebook
