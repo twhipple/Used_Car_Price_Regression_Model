@@ -1,9 +1,10 @@
-# Used_Car_Price_Regression_Model
+# Used Car Price Regression Model
 
 
-![picture1]()
+![picture1](https://raw.githubusercontent.com/twhipple/Used_Car_Price_Regression_Model/main/Images/johnathan-ciarrocca-x3HRBLzCmBU-unsplash.jpg)
 
-*Not sure yet*
+*How much does a used Toyota cost? Source: Johnathan Ciarrocca, Unsplash.com*
+
 
 ## Intro
 This repo is my attempt to create a linear regression model for used cars.
@@ -55,10 +56,11 @@ These are the libraries that I used in this project.
 
 
 ## Features
+These are the features of this dataset.
 
-5 numerical columns: 'price', 'mileage', 'tax', 'mpg' and 'engineSize'
-3 categorical columns: 'model', 'transmission' and 'fuelType'
-1 date column: 'year'
+* 5 numerical columns: 'price', 'mileage', 'tax', 'mpg' and 'engineSize'
+* 3 categorical columns: 'model', 'transmission' and 'fuelType'
+* 1 date column: 'year'
 
 
 ## Models
@@ -73,9 +75,9 @@ Not there yet.
 Still working on it.
 
 
-![Picture3]()
+![Picture3](https://raw.githubusercontent.com/twhipple/Used_Car_Price_Regression_Model/main/Images/roadside-assistance-required-jamie%20brelsford.jpg)
 
-*Not sure yet*
+*Roadside assistance required! Source: Jamie Brelsford, freeimages.com*
 
 ## Built With:
 Jupyter Notebook
