@@ -7,8 +7,7 @@
 
 
 ## Intro
-This repo is my attempt to create a linear regression model for used cars.
-This dataset comes from a collection of UK Used Car listing that were scraped and assembled for use. I chose to start off with the Toyota dataset because I happen to own one myself. The price is in English Pounds but for the use of this notebook I don't think I will be dealing with it - though I suppose I could figure out how to determine the exchange rate into Dollars depending on the year.
+This dataset comes from a collection of UK Used Car listing that were scraped and assembled for use. I chose to start off with the Toyota dataset because I happen to own one myself. The price is in English Pounds but for the use of this notebook I don't think I will be dealing with it - though I suppose I could figure out how to determine the exchange rate into Dollars depending on the year. I'm more interested in doing some EDA of the dataset and then building some Regression Models. Perhaps my model could one day estimate how much my own Toyota is worth!
 
 
 ## README Outline
