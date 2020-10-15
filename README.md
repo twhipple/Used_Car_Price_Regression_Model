@@ -40,17 +40,23 @@ This repo contains the following:
 
 ## Libraries & Prerequisites
 These are the libraries that I used in this project.
+
 * import pandas as pd
 * import numpy as np
 * import matplotlib.pyplot as plt
 * %matplotlib inline
 * import seaborn as sns
 
+* from sklearn.model_selection import train_test_split
 * from sklearn.preprocessing import StandardScaler
 
-* import statsmodels.api as sm
-* from sklearn.model_selection import train_test_split
 * from sklearn.linear_model import LinearRegression
+* from  sklearn.svm import SVR
+* from sklearn.tree import DecisionTreeRegressor
+* from sklearn.neighbors import KNeighborsRegressor
+
+* import statsmodels.api as sm
+
 * from sklearn.metrics import mean_squared_error
 * from sklearn.model_selection import cross_val_score
 
@@ -68,11 +74,18 @@ These are the features of this dataset.
 
 
 ## Models
-I will use a Linear Regression Model after converting the categrical features and scaling the numerical features.
-
+* LinearRegression
+* SVR
+* DecisionTreeRegressor
+* KNeighborsRegressor
+* Statsmodel OLS
 
 ## Conclusions
 From my EDA, I can conclude that a car's price is indirectly related to it's mileage. And the size of the engine is a good predictor of price since there is a direct relationship.
+I tried to use log transformations to remove some of the skewness in the 'mpg' and 'mileage' features but it caused an error in my models.
+I also used StandardScaler to fit some data AFTER performing the test/train split.
+The Decision Tree and Linear Regressor models had the lowest RMSE.
+The OLS Model had a high R^2 value but had too much multicollinearity and high p-values for me to accept this score.
 
 
 ![](https://raw.githubusercontent.com/twhipple/Used_Car_Price_Regression_Model/main/Images/Screen%20Shot%202020-10-13%20at%209.16.16%20AM.png)
@@ -81,7 +94,7 @@ From my EDA, I can conclude that a car's price is indirectly related to it's mil
 
 
 ## Future Work
-My basic model seemed to have some difficulties because of the number of columns - mostly due to all the different models involved.
+Remove some of the features, especially all the random car types and 'other' things. Check out my Cross Val score more as well as hig p-values.
 
 
 ![Picture3](https://raw.githubusercontent.com/twhipple/Used_Car_Price_Regression_Model/main/Images/roadside-assistance-required-jamie%20brelsford.jpg)
